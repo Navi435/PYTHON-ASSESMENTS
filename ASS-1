@@ -1,0 +1,49 @@
+# Assign the string "Hello, World!" to a variable and print it
+greeting = "Hello, World!"
+print(greeting)
+
+# Create a string "Python Programming" and extract the first five characters using slicing
+language = "Python Programming"
+first_five = language[:5]
+print(first_five)
+
+# Given a string "python is fun", convert it to uppercase
+text = "python is fun"
+uppercase_text = text.upper()
+print(uppercase_text)
+
+# Replace "fun" with "awesome" in the string "Python is fun"
+original = "Python is fun"
+replaced = original.replace("fun", "awesome")
+print(replaced)
+
+# Use f-string formatting to create a message with variables
+name = "John"
+age = 25
+message = f"My name is {name}, and I am {age} years old."
+print(message)
+
+# Given a price of 49.99, format it to display only two decimal places
+price = 49.99
+formatted_price = f"{price:.2f}"
+print(formatted_price)
+
+# Count the occurrences of the letter 'o' in "Hello, how are you?"
+sentence = "Hello, how are you?"
+count = sentence.count('o')
+print(count)
+
+# Find the position of "world" in "Hello, world! Python is amazing."
+sentence = "Hello, world! Python is amazing."
+position = sentence.find("world")
+print(position)
+
+# Reverse the string "Python" using slicing
+word = "Python"
+reversed_word = word[::-1]
+print(reversed_word)
+
+# Check if "madam" is a palindrome
+palindrome_candidate = "madam"
+is_palindrome = palindrome_candidate == palindrome_candidate[::-1]
+print(is_palindrome)
